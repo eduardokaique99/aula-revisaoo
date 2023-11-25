@@ -14,7 +14,12 @@
     </div>
     <div class="offcanvas-body">
         <div id="sidebar" class="border rounded">
-            <div class="nav flex-column py-3">
+            <div class="nav flex-column p-2">
+                <h4>Usuários</h4>
+                <a href="list_usuarios.php" class="list-inline-item">Listar usuários</a>
+                <a href="add_usuario.php" class="list-inline-item">Adicionar Usuário</a>
+            </div>
+            <div class="nav flex-column p-2">
                 <h4>Notícias</h4>
                 <a href="add_noticia.php" class="list-inline-item">Inserir Notícia</a>
                 <a href="list_noticia.php" class="list-inline-item">Listar Notícias</a>
